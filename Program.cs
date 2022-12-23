@@ -39,6 +39,11 @@ namespace hello
             bool containsYap = contains.Contains("yap");
             Console.WriteLine($"{containsMerp} {containsYap}");
 
+            //user inputs
+            //string? input;
+            //input = Console.ReadLine();
+           // Console.WriteLine($"You typed into the console: {input}.");
+
         }
     }
 }
