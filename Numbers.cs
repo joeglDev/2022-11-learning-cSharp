@@ -2,7 +2,7 @@ class NumberMethods
 {
     public static void runNumbers()
     {
-        Console.WriteLine("\nRinning Proggrame numbers: ");
+        Console.WriteLine("\nRunning Programme numbers: ");
 
         // + = * / arithmetic operators
         //e.g.
