@@ -1,7 +1,6 @@
 
 
-namespace Strings
-{
+
     class StringMethods
     {
         public static void runStrings(string[] args)
@@ -41,4 +40,3 @@ namespace Strings
 
         }
     }
-}

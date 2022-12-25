@@ -4,7 +4,7 @@
 // run dotnet run
 
 using System;
-using Strings;
+
 
 namespace hello
 {
@@ -12,7 +12,8 @@ namespace hello
     {
         static void Main(string[] args)
         {
-           Strings.StringMethods.runStrings(args);
+           StringMethods.runStrings(args);
+           NumberMethods.runNumbers();
         }
     }
 }
