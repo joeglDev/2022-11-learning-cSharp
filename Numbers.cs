@@ -2,7 +2,7 @@ class NumberMethods
 {
     public static void runNumbers()
     {
-        Console.WriteLine("Numbers runs: ");
+        Console.WriteLine("\nRinning Proggrame numbers: ");
 
         // + = * / arithmetic operators
         //e.g.
@@ -44,7 +44,7 @@ Single precision numbers are declared using the float keyword. Let's explore.
 Try the following code in the interactive window and see the result:
         */
 
-        //decomals have smaller range but greater precision than doubles
+        //decimals have smaller range but greater precision than doubles
         decimal minDec = decimal.MinValue;
         decimal maxDec = decimal.MaxValue;
         Console.WriteLine($"The range of the decimal type is {minDec} to {maxDec}");
@@ -54,6 +54,5 @@ Try the following code in the interactive window and see the result:
         double radius = 2.50;
         double area = radius * radius * Math.PI;
         Console.WriteLine(area);
-
     }
 }

@@ -14,6 +14,7 @@ namespace hello
         {
            StringMethods.runStrings(args);
            NumberMethods.runNumbers();
+           LoopMethods.runLoops();
         }
     }
 }
