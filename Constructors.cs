@@ -17,7 +17,7 @@ class ConstructorMethods
         //methods
         public void introduceYourself()
         {
-            Console.WriteLine($"You dare summon me? I am {this.name}.");
+            Console.WriteLine($"Yip yap merp, my name is {this.name}.");
         }
 
 
@@ -25,7 +25,25 @@ class ConstructorMethods
 
 
     //inheritance from Parent
-   
+    class Shigu : Sergal
+    {
+        //new properties
+        public bool loyalty;
+        // constructor of derived class
+        public Shigu(string name, int age, bool loyalty) : base(name, age)
+        {
+            // DerivedClass parameter types have to match base class types
+            // Do additional work here otherwise you can leave it empty
+            this.loyalty = loyalty;
+        }
+
+        //polymorphic method
+        new public void introduceYourself()
+        {
+            Console.WriteLine($"You dare summon me? I am {this.name}.");
+        }
+    }
+
 
 
     public static void runConstructors()
@@ -41,6 +59,8 @@ class ConstructorMethods
         //call method
         hiroji.introduceYourself();
 
-       // Shigu Rain = new Shigu("Rain Silves", 30);
+        Shigu rain = new Shigu("Rain Silves", 30, true);
+        Console.WriteLine($"{rain.name} is loyal to the Shigu: {rain.loyalty}.");
+        rain.introduceYourself();
     }
 }
