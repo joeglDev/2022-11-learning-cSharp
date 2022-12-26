@@ -17,6 +17,7 @@ namespace hello
            LoopMethods.runLoops();
            ListMethods.runLists();
            DictionaryMethods.runDictionary();
+           ConstructorMethods.runConstructors();
         }
     }
 }
